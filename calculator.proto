@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package calculator;
+
+// Interface exported by the server.
+service Calculator {
+  // Sends a addRequest
+  rpc add (addRequest) returns (addResponse) {}
+}
+
+// The request message containing the first and second value.
+message addRequest {
+  uint32 a = 1;
+  uint32 b = 2;
+}
+
+// The response message containing the addition of first and second value
+message addResponse {
+  string result = 1;
+}
+
+
+
+

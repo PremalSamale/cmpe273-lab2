@@ -1,0 +1,6 @@
+premal@premal-Lenovo-Y40-70:~/grpc/examples/python/calculator$ python3 calculator_client.py
+Enter first value  :12
+Enter second value :13
+Addition of first value & second value : Result= 25 
+premal@premal-Lenovo-Y40-70:~/grpc/examples/python/calculator$
+
